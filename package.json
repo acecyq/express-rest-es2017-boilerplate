@@ -2,7 +2,7 @@
   "name": "express-rest-es2017-boilerplate",
   "version": "1.2.2",
   "description": "Express boilerplate for building RESTful APIs",
-  "author": "Daniel Sousa <sousa.dfs@gmail.com>",
+  "author": "Ace Chua <acecyq@gmail.com>",
   "main": "src/index.js",
   "private": false,
   "license": "MIT",
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:danielfsousa/express-rest-es2017-boilerplate.git"
+    "url": "https://github.com/acecyq/express-rest-es2017-boilerplate"
   },
   "keywords": [
     "express",

@@ -1,0 +1,69 @@
+.inputs {
+	height: 10vh;
+	background-color: #222224;
+	color: white;
+	border: none;
+	line-height: 3;
+}
+
+.links {
+	color: #8F9094;
+	text-decoration: none;
+}
+
+.links:hover {
+	color: white;
+	text-decoration: none;
+}
+
+#header {
+	background-color: black;
+	padding: 15vh 0 15vh 0;
+}
+
+#logo {
+	width: 100%;
+	height: auto;
+	filter: invert(100%);
+}
+
+#caption {
+	height: 10vh;
+	width: 100vw;
+	background-color: #222224;
+	color: white;
+	text-align: center;
+	padding: 10vh 0 15vh 0;
+}
+
+#form {
+	height: 100vh;
+	width: 100vw;
+	background-color: #2B2B2D;
+	padding-top: 15vh;
+}
+
+#button {
+	width: 100%;
+	height: 10vh;
+	font-size: 1.5rem;
+}
+
+#unlock {
+	height: 1.5rem;
+	width: auto;
+	filter: invert(100%);
+}
+
+#rightLink {
+	float: right;
+}
+
+#footer {
+	color: #8F9094;
+	text-align: center;
+}
+
+#footer hr {
+	background-color: #8F9094;
+}

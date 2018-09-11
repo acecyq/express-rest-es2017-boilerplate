@@ -6,14 +6,15 @@
 	line-height: 3;
 }
 
-.links {
-	color: #8F9094;
-	text-decoration: none;
+.flash {
+	color: red;
+	text-align: center;
 }
 
-.links:hover {
-	color: white;
-	text-decoration: none;
+.links {
+	display: inline;
+	color: #8F9094;
+	cursor: pointer;
 }
 
 #header {
@@ -31,6 +32,7 @@
 	height: 10vh;
 	width: 100vw;
 	background-color: #222224;
+	font-size: 3rem;
 	color: white;
 	text-align: center;
 	padding: 10vh 0 15vh 0;
@@ -66,4 +68,29 @@
 
 #footer hr {
 	background-color: #8F9094;
+}
+
+/*media query*/
+@media only screen and (max-width: 575.98px) {
+	#caption {
+		font-size: 0.8rem;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) { 
+	#caption {
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) { 
+	#caption {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) { 
+	#caption {
+		font-size: 2rem;
+	}
 }

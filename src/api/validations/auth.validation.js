@@ -4,8 +4,9 @@ module.exports = {
   // POST /v1/auth/register
   register: {
     body: {
-      email: Joi.string().email().required(),
-      password: Joi.string().required().min(6).max(128),
+      // email: Joi.string().email().required(),
+      email: Joi.string().regex(/^([a-zA-Z0-9])+@([a-zA-Z0-9])+.([a-zA-Z0-9])+$/i).required(),
+      password: Joi.string().required().min(6).max(15),
     },
   },
 

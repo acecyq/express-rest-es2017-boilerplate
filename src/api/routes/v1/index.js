@@ -18,5 +18,6 @@ router.use('/users', userRoutes);
 router.use('/auth', authRoutes);
 
 router.use('/register', express.static('register'));
+router.use('/login', express.static('login'));
 
 module.exports = router;

@@ -20,7 +20,8 @@ const roles = ['user', 'admin'];
 const userSchema = new mongoose.Schema({
   email: {
     type: String,
-    match: /^\S+@\S+\.\S+$/,
+    // match: /^\S+@\S+\.\S+$/,
+    match: /^([a-zA-Z0-9])+@([a-zA-Z0-9])+.([a-zA-Z0-9])+$/i,
     required: true,
     unique: true,
     trim: true,
@@ -30,7 +31,7 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
     minlength: 6,
-    maxlength: 128,
+    maxlength: 15,
   },
   name: {
     type: String,
